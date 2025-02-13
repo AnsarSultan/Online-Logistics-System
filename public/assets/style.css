@@ -1,0 +1,1249 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    color: red;
+}
+
+#sign-in-btn {
+    background-color: red;
+    color: white;
+    height: 80%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.navbar {
+    padding: 10px;
+    height: 12vh;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+    
+}
+.navbar-container{
+    height:12vh;
+}
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: white;
+    }
+}
+
+.nav-link {
+    font-weight: inherit;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-top: 20px;
+    position: relative;
+    text-decoration: none;
+    background-image: linear-gradient(to right, red, red);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    transition: background-size 0.1s ease;
+}
+
+
+
+.dropdown-item:hover {
+    color: red;
+}
+
+.home-content {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+@media (max-width: 768px) {
+    .home-content {
+        background-size: contain;
+        background-size: auto 100%;
+        background-position: center;
+    }
+}
+
+
+.home-content-text {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+}
+
+.home-content-title {
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.home-content-body {
+    font-size: large;
+    margin-left: 10%;
+}
+
+.book-now-btn {
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 14px;
+    width: 110px;
+    height: 35px;
+    font-size: small;
+    margin-left: 20%;
+}
+
+.color {
+    color: red;
+}
+
+.service-item,
+.price-item,
+.team-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+
+.service-item img,
+.team-item img {
+    transition: .5s;
+}
+
+.service-item:hover img,
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+
+.service-item a.btn-slide i,
+.service-item a.btn-slide span,
+.price-item a.btn-slide i,
+.price-item a.btn-slide span,
+.team-item div.btn-slide i,
+.team-item div.btn-slide span {
+    position: relative;
+    height: 40px;
+    padding: 0 15px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    color: red;
+    background: var(--primary);
+    border-radius: 0 35px 35px 0;
+    transition: .5s;
+    z-index: 2;
+}
+
+.team-item div.btn-slide span a i {
+    padding: 0 10px;
+}
+
+.team-item div.btn-slide span a:hover i {
+    background: var(--secondary);
+}
+
+.footer-distributed {
+    background: #f1f1f1;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    height: 100%;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+
+.footer-distributed h3 {
+    color: black;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: red;
+}
+
+
+.footer-distributed .footer-links {
+    color: black;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: red;
+    color: black;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: red;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: black;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+
+.home-content-3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-content-3-image {
+    width: 50%;
+    height: 100%;
+}
+
+.home-content-3-text {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding-left: 5%;
+    display: grid;
+    place-items: center;
+}
+
+.home-content-3-text h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.home-content-3-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home-content-3-image-box {
+    width: 80%;
+    height: 80%;
+    border-radius: 0 200px 0 0;
+    background-image: url('/images/leader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .home-content-2-text {
+        margin-top: 10px;
+    }
+
+    .home-content-2-text p {
+        text-align: center;
+    }
+
+    .home-content-2-cards {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+
+    }
+
+    .home-content-2 {
+        height: auto;
+    }
+
+    .home-content-2-cards-1,
+    .home-content-2-cards-2,
+    .home-content-2-cards-3 {
+        border-radius: 30px;
+        width: 90%;
+        margin: 10px;
+        background-color: red;
+    }
+
+    .home-content-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-content-3-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-content-3-text {
+        height: 100%;
+        width: 100%;
+        padding-left: 1%;
+    }
+
+    .home-content-3-image {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.contact-us {
+    /* margin-top: -70px; */
+    width: 100%;
+    height: 88vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-1 {
+    margin: 0;
+    padding: 0;
+    height: 45%;
+    width: 100%;
+    background-image: url('/images/contactus.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-us-2 {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us-3 {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding-left: 7%;
+    padding-top: 10%;
+}
+
+.contact-us-4 {
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    padding-top: 5%;
+    padding-left: 8%;
+    color: white;
+}
+
+
+.about-us {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/images/aboutus.jpg');
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url('/images/aboutus.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-us-1 {
+    width: 100%;
+    height: 45%;
+    padding-left: 10%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+
+.about-us-1-1 {
+    width: 30%;
+}
+
+.about-us-1-2 {
+    width: 40%;
+}
+
+.about-us .about-us-1 .about-us-1-1 h3 {
+    color: red;
+}
+
+.about-us-2 {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 10%;
+    justify-content: space-between;
+}
+
+.user-signup-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-signup {
+    margin-top: 5vh;
+    width: 30vw;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 1px 1px red;
+}
+
+.user-signup h2 {
+    color: red;
+
+
+}
+
+.user-signup .heading {
+    text-align: center;
+    padding: 2px 0 0px 0;
+    border-bottom: 1px solid silver;
+}
+
+.user-signup form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .signup-txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 15px 0;
+}
+
+.signup-txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.signup-txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 15px;
+    pointer-events: none;
+}
+
+.signup-txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: red;
+    transition: .5s;
+}
+
+.signup-txt_field input:focus~label,
+.signup-txt_field input:valid~label {
+    top: -0px;
+    color: red;
+}
+
+.signup-txt_field input:focus~span::before,
+.signup-txt_field input:Valid~span::before {
+    width: 100%;
+}
+
+.login-btn,
+.signup-btn {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+
+}
+
+.signup_link-1 {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signup_link-1 a {
+    color: red;
+    text-decoration: none;
+}
+
+.signup_link-1 a:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+    height: 88vh;
+    display: grid;
+    place-items: center;
+}
+
+.login {
+    margin-top: 17vh;
+    width: 29vw;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid red;
+    box-shadow: 1px 1px red;
+}
+
+.login h1 {
+    color: red;
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.login form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 40px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: red;
+    transition: .5s;
+}
+
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+    top: -5px;
+    color: red;
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:Valid~span::before {
+    width: 100%;
+}
+
+.signup_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+
+.signup_link a {
+    color: red;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
+
+
+.book-freights-form-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 72vh !important;
+    width: 100% !important;
+    padding-top: 22vh;
+}
+
+.book-freights-form {
+    width: 80%;
+    background-color: rgb(237, 235, 233);
+    /* background-color: rgb(237, 235, 233); */
+    padding-bottom: 10px;
+}
+
+.booking-address {
+    resize: none;
+}
+
+.testing {
+    border: none;
+}
+
+.modal-body p {
+    margin: 0;
+    padding: 0;
+}
+
+#booking-alert {
+    position: absolute;
+    height: 14vh;
+    width: 100%;
+}
+
+/* body {
+    /* padding-top: 12vh; 
+    /* Adjust this based on your navbar height 
+} */
+
+.shipment {
+    margin: 5px 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Align items vertically at the center */
+    text-align: center;
+    /* Align text content center */
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.col {
+    padding: 0;
+    height: 100px;
+}
+
+.row1 {
+    background-color: red;
+    color: white;
+    height: 50%;
+    padding: 0 10px;
+    display: grid;
+    place-items: center;
+}
+
+#track-shipment form {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.shipment #track-shipment {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#trachshimpemnt-error {
+    color: red;
+    text-align: left;
+    margin-left: 0;
+}
+
+#track-shipment-btn {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.col {
+    border: 1px solid black;
+}
+
+.admin-header {
+    height: 12vh;
+    background-color: #282a3c;
+    padding: 1rem 0;
+    margin: 0;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.admin-header .admin-logout {
+    font-size: large;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 3px 5px;
+    background-color: red;
+    border-radius: px;
+    border: 1px solid rgba(255, 0, 0, 0.749);
+}
+
+.admin-header a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+.admin-header-img {
+    height: 30px;
+    width: 30px;
+}
+
+.admin-home .admin-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    background-color: #282a3c;
+    /* font-size: 10px; */
+}
+
+.admin-home .admin-sidebar a {
+    height: 11vh;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    font-size: large;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.admin-home .admin-sidebar a p{
+    font-size:medium;
+    margin: auto 0px;
+}
+.admin-sidebar-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    margin-left: 10%;
+}
+
+.admin-sidebar a:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+.admin-home {
+    display: flex;
+    height: 88vh;
+}
+
+.freight-heading {
+    text-align: center;
+    padding: 1px;
+}
+
+.add-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: larger;
+    margin: 10px 0 0 15px;
+    padding: 3px 13px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.freights hr{
+    width: 100%;
+}
+
+.freights, .trips, .expenses,
+ .income, .driver, .report-container , .add-admin{
+    width: 80%;
+    height: 88vh;
+    overflow-y: auto;
+}
+
+.trips .add-trips-form{
+    margin: 50px;
+    /* border: 1px solid black; */
+    background-color: #dfdfdf;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.admin-back-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: larger;
+    margin: 10px 0 0 15px;
+    padding: 3px 13px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-expense-form-container .add-expense-form{
+    margin: 50px;
+    padding-bottom: 10px;
+    background-color: #dfdfdf;
+    height: auto;
+}
+
+.edit-btn{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 3px 15px;
+    border-radius: 8px;
+}
+.delete-btn{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 3px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.calculator-container {
+    height: 88vh;
+    display: flex;
+    place-content: center;
+    background-color: rgb(237, 235, 233);
+
+}
+
+
+.calculator {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    background-color: white;
+    height: 93%;
+    margin-top: 2vh;
+
+}
+
+.calculator hr {
+    width: 100%;
+    border-color: black;
+}
+
+.calculator h2 {
+    padding: 5px 0 0 0;
+}
+
+.input-field label,
+.input-field select,
+.input-field button,
+.input-field #clear-btn {
+    width: 95%;
+    margin: 0 8px;
+    padding: 5px;
+}
+
+.input-field button,
+.input-field #clear-btn,
+#price {
+    margin: 5px 8px;
+
+}
+
+
+.input-field select {
+    background-color: rgb(237, 235, 233);
+}
+
+.input-field input {
+    width: 95%;
+    margin: 3px 8px;
+    padding: 5px;
+}
+
+.options {
+    padding: 5px;
+    font-size: large;
+}
+
+#price {
+    text-align: center;
+    background-color: rgb(237, 235, 233);
+    border-radius: 3px;
+    border: 3px solid rgb(190, 187, 183);
+    width: 90%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button,
+#clear-btn {
+    background-color: red;
+    color: white;
+}
+
+#sign-in-btn {
+    background-color: red;
+    color: white;
+    height: 80%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+.paymentcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paymentcontainer form {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+}
+
+.paymentcontainer form .paymenRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.paymentcontainer form .paymenRow .paymenCol {
+    flex: 1 1 250px;
+}
+
+.paymenCol .title {
+    font-size: 15px;
+    color: rgb(237, 55, 23);
+    padding-bottom: 5px;
+}
+
+.paymenCol .inputBox {
+    margin: 8px 0;
+}
+
+.paymenCol .inputBox label {
+    display: block;
+}
+
+.paymenCol .inputBox input,
+.paymenCol .inputBox select {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 6px 9px;
+    font-size: 15px;
+}
+
+.paymenCol .inputBox input:focus,
+.paymenCol .inputBox select:focus {
+    border: 1px solid #000;
+}
+
+.paymenCol .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.paymenCol .flex .inputBox {
+    flex: 1 1;
+    margin-top: 3px;
+}
+
+.paymenCol .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.paymentcontainer form .submit_btn {
+    width: 48%;
+    padding: 12px;
+    font-size: 17px;
+    background: rgb(1, 143, 34);
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+#cancel-btn{
+    width: 48%;
+    padding: 12px;
+    font-size: 17px;
+    /* background: rgb(1, 143, 34); */
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.paymentcontainer form .submit_btn:hover {
+    background: #3d17fb;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
+.paymentbtns{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+    .add-trip-form {
+        width: 90%;
+    }
+}
+
+.report-container{
+    padding: 2%;
+}
+.report-container hr{
+    width: 100%;
+}
+.report{
+    display: flex;
+    text-align: center;
+}
+
+.reporttable{
+   width: 40%;
+   margin: 0 5%;
+}
+
+@media print {
+   body * {
+       visibility: hidden;
+   }
+   .report-content, .report-content * {
+       visibility: visible;
+   }
+   .report-content {
+       position: absolute;
+       left: 0;
+       top: 0;
+   }
+}
+
+
+
+.nav-link:not(#sign-in-btn):hover,
+.active {
+    
+    color: red;
+    background-size: 100% 3px;
+}
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+.bg-c-gray{
+    background: #a7a9ab;
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
